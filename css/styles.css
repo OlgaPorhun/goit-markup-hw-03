@@ -4,18 +4,60 @@ body {
     background-color: #fff;
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul, ol {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.container { 
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;  
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+  }
  
 /* _____________HEADER______________ */
 
 .header {
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
@@ -70,6 +112,8 @@ ul, ol {
 
 .hero {
    background-color: #2E2F42;
+   padding-top: 188px;
+   padding-bottom: 188px; 
 }
 
 .hero-title {
@@ -79,6 +123,9 @@ ul, ol {
     font-weight: 700;
     line-height: 1.07;    
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -101,7 +148,8 @@ ul, ol {
 /* _____________FEATURE______________ */
 
 .feature {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .feature-list {
@@ -132,6 +180,8 @@ ul, ol {
 
 .team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -142,6 +192,7 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -177,7 +228,8 @@ ul, ol {
 /* _____________OUR PORTFOLIO______________ */
 
 .portfolio {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .potfolio-title {
@@ -188,6 +240,7 @@ ul, ol {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .potfolio-list {
@@ -222,6 +275,8 @@ ul, ol {
 
 .footer {
     background: #2E2F42;
+    padding-top: 102px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -243,5 +298,7 @@ ul, ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    margin-top: 18px;
 }
 
