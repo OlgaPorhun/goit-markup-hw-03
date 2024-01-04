@@ -56,12 +56,17 @@ address {
 /* _____________HEADER______________ */
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display:flex;
+    align-items: center;
 }
 
 .header-navigation {
-
+    display:flex;
+    align-items: center;
 }
 
 .header-logo {
@@ -72,38 +77,46 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo-blue {
     color: #2e2f42;
 }
 
-.header-menu-link {
+.header-menu-list {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display:flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-list:hover,
+.header-menu-list:focus {
     color: #404BBF;
 }
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
-.header-address-link {
+.header-address-list {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display:flex;
+    gap: 40px;
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
+.header-address-list:hover,
+.header-address-list:focus {
     color: #404BBF;
 }
 /* _______________________________*/
