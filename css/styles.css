@@ -41,6 +41,18 @@ address {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+  }
+ 
 /* _____________HEADER______________ */
 
 .header {
@@ -82,10 +94,6 @@ address {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.header-menu-item {
-    
 }
 
 .header-menu-list:hover,
@@ -173,18 +181,6 @@ address {
     display: flex;
     gap: 24px;
 }
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    overflow: hidden;
-  }
 
 .feature-item {
     width: calc((100% - 24px * 3) / 4);
