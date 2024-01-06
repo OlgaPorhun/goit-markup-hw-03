@@ -50,9 +50,9 @@ address {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
   }
- 
 /* _____________HEADER______________ */
 
 .header {
@@ -92,6 +92,9 @@ address {
     letter-spacing: 0.02em;
     display:flex;
     gap: 40px;
+}
+
+.header-menu-link {
     padding-top: 24px;
     padding-bottom: 24px;
 }
